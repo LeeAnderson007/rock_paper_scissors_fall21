@@ -36,7 +36,7 @@ const generateComputerChoice1 = () => {
   
   useEffect(() => { 
     {
-    switch (userChoice + computerChoice + computerChoice) {
+    switch (userChoice + computerChoice + computerChoice1) {
       case "scissorpaperpaper":
       case "rockscissorsscissors":
       case "paperrockrock":
@@ -56,7 +56,7 @@ const generateComputerChoice1 = () => {
         setScore(score + 1)
     }
    }
-  }, [computerChoice, userChoice, computerChoice])
+  }, [computerChoice, userChoice, computerChoice1])
 
   return (
     <div>
